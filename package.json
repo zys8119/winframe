@@ -1,9 +1,9 @@
 {
   "name": "winframe",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "浏览器帧动画",
   "main": "dist/index.js",
-  "types": "ssrc/index.d.ts",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "rimraf dist && tsc -d -outdir dist  &&esbuild src/index.ts --bundle --outdir=dist --format=esm"
   },
