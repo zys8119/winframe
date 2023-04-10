@@ -1,6 +1,6 @@
 {
   "name": "winframe",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "浏览器帧动画",
   "main": "dist/index.js",
   "types": "ssrc/index.d.ts",
