@@ -1,0 +1,25 @@
+{
+  "name": "winframe",
+  "version": "0.0.1",
+  "description": "浏览器帧动画",
+  "main": "dist/index.js",
+  "types": "ssrc/index.d.ts",
+  "scripts": {
+    "build": "rimraf dist && tsc -d -outdir dist  &&esbuild src/index.ts --bundle --outdir=dist --format=esm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zys8119/winframe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zys8119/winframe/issues"
+  },
+  "homepage": "https://github.com/zys8119/winframe#readme",
+  "devDependencies": {
+    "esbuild": "^0.17.15",
+    "rimraf": "^5.0.0",
+    "typescript": "^5.0.4"
+  }
+}
